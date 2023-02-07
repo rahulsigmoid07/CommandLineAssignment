@@ -11,7 +11,7 @@ a=2
 #run a loop till num/2
 #if number get divided by any number then make flag=1
 
-while [ $a -lt $((num/2)) ]
+while [ $((a*a)) -lt $((num/2)) ]
 do
 	if [ $((num%a )) == 0 ];
 	then
