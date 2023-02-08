@@ -8,7 +8,7 @@ flag=0
 
 a=2
 
-#run a loop till num/2
+#run a loop till root(n)
 #if number get divided by any number then make flag=1
 
 while [ $((a*a)) -lt $((num)) ]
