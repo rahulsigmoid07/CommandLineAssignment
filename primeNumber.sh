@@ -1,6 +1,7 @@
 #! /bin/bash
 
-
+function primeNumber()
+{
 echo "Enter a number :"
 read num
 
@@ -29,3 +30,5 @@ then
 else
 	echo "NOT A PRIME NUMBER"
 fi
+}
+primeNumber;
